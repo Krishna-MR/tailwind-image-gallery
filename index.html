@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Image Gallery</title>
+  <link rel="stylesheet" href="./src/style.css">
+</head>
+
+<body class="min-h-screen p-4">
+
+  <nav class="flex justify-between items-center mb-4">
+    <h1 class="text-xl font-bold">Hello!</h1>
+
+    <div>
+      <a href="#" class="mr-4">Log in</a>
+      <button class="border border-black rounded-lg p-2">
+        Sign up
+      </button>
+    </div>
+  </nav>
+
+  <div class="grid grid-cols-2 gap-2
+              lg:grid-cols-6 lg:grid-rows-4
+              lg:h-[calc(100vh-110px)]">
+
+
+    <img
+      class="w-full h-40 lg:h-full min-h-0 object-cover rounded-lg lg:col-start-1 lg:row-start-1"
+      src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800"
+      alt="Beach"
+    >
+
+    <img
+      class="w-full h-40 lg:h-full min-h-0 object-cover rounded-lg lg:col-span-3 lg:row-span-2 lg:col-start-2 lg:row-start-1"
+      src="https://images.unsplash.com/photo-1578632767115-351597cf2477?w=1200"
+      alt="Anime artwork"
+    >
+
+    <img
+      class="w-full h-40 lg:h-full min-h-0 object-cover rounded-lg lg:col-start-5 lg:row-start-1"
+      src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=800"
+      alt="Sunset"
+    >
+
+    <img
+      class="w-full h-40 lg:h-full min-h-0 object-cover rounded-lg lg:col-start-6 lg:row-start-1"
+      src="https://images.unsplash.com/photo-1448375240586-882707db888b?w=800"
+      alt="Dark forest"
+    >
+
+    <img
+      class="w-full h-40 lg:h-full min-h-0 object-cover rounded-lg lg:col-start-1 lg:row-start-2"
+      src="https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800"
+      alt="Coastal landscape"
+    >
+
+    <img
+      class="w-full h-40 lg:h-full min-h-0 object-cover rounded-lg lg:col-start-5 lg:row-start-2"
+      src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800"
+      alt="Fantasy mountains"
+    >
+
+    <img
+      class="w-full h-40 lg:h-full min-h-0 object-cover rounded-lg lg:col-start-6 lg:row-start-2"
+      src="https://images.unsplash.com/photo-1519608487953-e999c86e7455?w=800"
+      alt="Night sky"
+    >
+
+    <img
+      class="w-full h-40 lg:h-full min-h-0 object-cover rounded-lg lg:col-start-1 lg:row-start-3"
+      src="https://images.unsplash.com/photo-1500534623283-312aade485b7?w=800"
+      alt="Golden sunset"
+    >
+
+    <img
+      class="w-full h-40 lg:h-full min-h-0 object-cover rounded-lg lg:col-start-2 lg:row-start-3"
+      src="https://images.unsplash.com/photo-1511497584788-876760111969?w=800"
+      alt="Forest"
+    >
+
+    <img
+      class="w-full h-40 lg:h-full min-h-0 object-cover rounded-lg lg:col-start-3 lg:row-start-3"
+      src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800"
+      alt="Fantasy landscape"
+    >
+
+    <img
+      class="w-full h-40 lg:h-full min-h-0 object-cover rounded-lg lg:col-span-3 lg:row-span-2 lg:col-start-4 lg:row-start-3"
+      src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=1200"
+      alt="Mountain landscape"
+    >
+
+    <img
+      class="w-full h-40 lg:h-full min-h-0 object-cover rounded-lg lg:col-start-1 lg:row-start-4"
+      src="https://images.unsplash.com/photo-1497250681960-ef046c08a56e?w=800"
+      alt="Nature"
+    >
+
+    <img
+      class="w-full h-40 lg:h-full min-h-0 object-cover rounded-lg lg:col-start-2 lg:row-start-4"
+      src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=800"
+      alt="Landscape"
+    >
+
+    <img
+      class="w-full h-40 lg:h-full min-h-0 object-cover rounded-lg lg:col-start-3 lg:row-start-4"
+      src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800"
+      alt="Beach"
+    >
+
+  </div>
+
+</body>
+</html>
+
+  <!-- <body>
+<div>
+  <section class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+    <div class="bg-white p-6 shadow hover:bg-slate-400">
+      <h1 class="text-xl font-bold">card 1</h1>
+      <p>Now we build Tailwind CSS Service Grid</p>
+    </div>
+    <div class="bg-white p-6 shadow hover:bg-slate-400">
+      <h1 class="text-xl font-bold">card 2</h1>
+      <p>Now we build Tailwind CSS Service Grid</p>
+    </div>
+    <div class="bg-white p-6 shadow hover:bg-slate-400">
+      <h1 class="text-xl font-bold">card 3</h1>
+      <p>Now we build Tailwind CSS Service Grid</p>
+    </div>
+  </section>
+</div>
+<div class="grid grid-flow-col grid-rows-4 gap-4">
+<div class="bg-blue-200">1</div>
+<div class="bg-blue-200">2</div>
+<div class="bg-blue-200">3</div>
+<div class="bg-blue-200">4</div>
+<div class="bg-blue-200">5</div>
+  <div class="col-span-2 row-span-2 grid grid-rows-subgrid gap-4 bg-pink-600">
+    <div class="row-start-2">06</div>
+  </div>
+<div class="bg-blue-200">7</div>
+<div class="bg-blue-200">8</div>
+<div class="bg-blue-200">9</div>
+<div class="bg-blue-200">10</div>
+  <div class="row-span-3 grid grid-rows-subgrid gap-4">
+    <div class="row-start-2">06</div>
+  </div>
+  <div>07</div>
+   ... -->
+  <!-- <div>10</div>
+</div>
+
+  </body> --> 
+  <!-- <body>
+    <div id="app"></div>
+    <
+    <body class="bg-gray-100 p-4">
+
+    <div class="bg-white p-6 rounded-xl shadow-lg w-80">
+        <h1 class="text-2xl font-bold text-gray-800 mb-2">
+            Hello!
+        </h1>
+
+        <p class="text-gray-600 mb-4">
+            This is a first card using Tailwind CSS.
+        </p>
+
+        <button class="bg-blue-500 text-white p-2 rounded-lg">
+            Learn More
+        </button>
+    </div>
+    <div class="mx-auto max-w-md overflow-hidden rounded-xl bg-white shadow-md md:max-w-2xl">
+  <div class="md:flex">
+    <div class="md:shrink-0">
+      <img
+        class="h-48 w-full object-cover md:h-full md:w-48"
+        src="/img/building.jpg"
+        alt="Modern building architecture"
+      />
+    </div>
+    <div class="p-8">
+      <div class="text-sm font-semibold tracking-wide text-indigo-500 uppercase">Company retreats</div>
+      <a href="#" class="mt-1 block text-lg leading-tight font-medium text-black hover:underline">
+        Incredible accommodation for your team
+      </a>
+      <p class="mt-2 text-gray-500">
+        Looking to take your team away on a retreat to enjoy awesome food and take in some sunshine? We have a list of
+        places to do just that.
+      </p>
+    </div>
+  </div>
+</div>
+<div class="bg-white shadow-md rounded-2xl max-w-md mx-auto md:max-w-xl">
+  <div class="md:flex">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhkLu3TppRBNPsBodG1zSZDT9PkNBPiDQZ8ipe2d3ASwj_Fw0TtkeODNx3&s=10&" width="100%">
+    <div class="p-6">
+<h1>This is a card heading</h1>
+<p>
+  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, ipsum quo. Maiores, dolor accusamus! Dolores perferendis atque corrupti obcaecati unde necessitatibus sit adipisci quia, reiciendis quae quas doloremque, optio fugit.
+</p>
+    </div>
+  </div>
+
+</div>
+
+</body>
+  </body> -->
+</html>
